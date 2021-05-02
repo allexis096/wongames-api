@@ -1,8 +1,8 @@
 {
-  "name": "api",
+  "name": "wongames-api",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "The Won Games API.",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -11,8 +11,10 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "jsdom": "^16.5.3",
     "knex": "0.21.18",
     "pg": "8.5.1",
+    "slugify": "^1.5.0",
     "strapi": "3.6.1",
     "strapi-admin": "3.6.1",
     "strapi-connector-bookshelf": "3.6.1",
